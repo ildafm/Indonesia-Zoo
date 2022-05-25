@@ -34,7 +34,10 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Detail Tentang Kebun Binatang"
-            
+            android:padding="6dp"
+            style="@style/TextAppearance.AppCompat.Medium"
+            android:justificationMode="inter_word"
+            />
 
     </LinearLayout>
 
