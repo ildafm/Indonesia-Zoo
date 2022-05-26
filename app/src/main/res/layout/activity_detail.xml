@@ -39,6 +39,36 @@
             android:justificationMode="inter_word"
             />
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+            <Button
+                android:id="@+id/btn_website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Website"
+                />
+
+            <Button
+                android:id="@+id/btn_telepon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Telepon"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Lokasi"
+            />
+
     </LinearLayout>
 
 </ScrollView>

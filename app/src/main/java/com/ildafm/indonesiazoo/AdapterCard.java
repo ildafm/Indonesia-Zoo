@@ -10,6 +10,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.bumptech.glide.Glide;
+
 import java.util.ArrayList;
 
 public class AdapterCard extends RecyclerView.Adapter<AdapterCard.CardViewHolder> {
@@ -41,6 +43,25 @@ public class AdapterCard extends RecyclerView.Adapter<AdapterCard.CardViewHolder
         ModelKebunBinatang kebunBinatang = dataKebunBinatang.get(position);
 
         holder.tvNama.setText(kebunBinatang.getNama());
+        holder.tvDetail.setText(kebunBinatang.getDetail());
+
+        Glide
+                .with(holder.itemView.getContext())
+                .load(kebunBinatang.getFoto())
+                .into(holder.ivFoto);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                callBack.onItemClicked(dataKebunBinatang.get(holder.getAdapterPosition()));
+            }
+        });
+
+    }
+
+    @Override
+    public int getItemCount() {
+        return dataKebunBinatang.size();
     }
 
     public class CardViewHolder extends RecyclerView.ViewHolder{
@@ -50,6 +71,9 @@ public class AdapterCard extends RecyclerView.Adapter<AdapterCard.CardViewHolder
 
         public CardViewHolder(@NonNull View itemView) {
             super(itemView);
+            ivFoto = itemView.findViewById(R.id.iv_foto);
+            tvNama = itemView.findViewById(R.id.tv_nama);
+            tvDetail = itemView.findViewById(R.id.tv_detail);
         }
     }
 }
