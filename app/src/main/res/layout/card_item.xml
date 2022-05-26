@@ -8,39 +8,35 @@
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="6dp"
-        >
+        android:padding="6dp">
 
         <ImageView
             android:id="@+id/iv_foto"
             android:layout_width="75dp"
             android:layout_height="100dp"
             android:scaleType="centerCrop"
-            android:src="@mipmap/ic_launcher"
-            />
+            android:src="@mipmap/ic_launcher" />
 
         <TextView
             android:id="@+id/tv_nama"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/iv_foto"
             android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@+id/iv_foto"
             android:text="Nama Kebun Binatang"
             android:textSize="21sp"
-            android:textStyle="bold"
-            />
+            android:textStyle="bold" />
 
         <TextView
             android:id="@+id/tv_detail"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_toRightOf="@+id/iv_foto"
             android:layout_below="@+id/tv_nama"
-            android:text="Detail Kebun Binatang"
             android:layout_marginLeft="6dp"
-            android:maxLines="3"
+            android:layout_toRightOf="@+id/iv_foto"
             android:ellipsize="end"
-        />
+            android:maxLines="3"
+            android:text="Detail Kebun Binatang" />
 
     </RelativeLayout>
 
