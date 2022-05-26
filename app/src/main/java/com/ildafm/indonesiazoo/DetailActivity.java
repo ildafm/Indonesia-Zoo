@@ -34,7 +34,7 @@ public class DetailActivity extends AppCompatActivity {
         yTelepon = terima.getStringExtra("xTelepon");
 
         setData();
-        fungsiButton();
+
     }
 
     private void initView(){
@@ -56,9 +56,13 @@ public class DetailActivity extends AppCompatActivity {
                 .load(yFoto)
                 .into(ivFoto);
 
+        fungsiButton();
+
     }
 
     private void fungsiButton(){
+
+        setVisibilitasButton();
 
         //button website
         btnWebsite.setOnClickListener(new View.OnClickListener() {
@@ -90,5 +94,16 @@ public class DetailActivity extends AppCompatActivity {
                 startActivity(bukaLokasi);
             }
         });
+    }
+
+    private void setVisibilitasButton(){
+
+        if(yWebsite.equals("null")){
+            btnWebsite.setVisibility(View.GONE);
+        }
+        if(yTelepon.equals("null")){
+            btnTelepon.setVisibility(View.GONE);
+        }
+
     }
 }

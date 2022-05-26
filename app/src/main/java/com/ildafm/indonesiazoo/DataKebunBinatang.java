@@ -59,7 +59,7 @@ public class DataKebunBinatang {
                     "Kebun Binatang Pematang Siantar"
                     , "Taman Hewan Pematangsiantar (THPS) atau sebelumnya dikenal juga sebagai Kebun Binatang Siantar dan Kebun Binatang Pematangsiantar, adalah kebun binatang yang terletak di kota Pematangsiantar. Kebun binatang ini resmi dibuka untuk umum pada tanggal 27 November 1936 dengan luas areal sekitar 4.5 hektare. THPS berlokasi di Jalan Gunung Simanuk-Manuk Kota Pematangsiantar, Provinsi Sumatra Utara. Sampai saat ini THPS masih mempertahankan statusnya sebagai kebun binatang yang terlengkap dan terbaik di wilayah Sumatra Utara. Koleksi satwa dan popularitasnya bahkan mengalahkan Kebun Binatang Medan dengan luas yang berpuluh kali lebih besar daripada THPS dan merupakan kebun binatang terbesar di wilayah Sumatra Utara yang terletak di ibu kota provinsi Sumatra Utara, Kota Medan. Meskipun dengan berbagai keterbatasan seperti sempitnya ruang yang tersedia, kurangnya pendanaan serta pemahaman untuk proyek peremajaan eksibisi hewan, namun melalui usaha perawatan hewan yang cukup baik, THPS cukup berhasil dalam menjalankan peranannya sebagai lembaga konservasi serta dapat digolongkan sebagai salah satu kebun binatang yang terbaik di antara kebun binatang yang ada di Indonesia. Taman Hewan Pematangsiantar mengantongi izin berupa Surat Keputusan Menteri Kehutanan dengan Nomor. SK.84/Menhut-II/2007 yang dikeluarkan pada tanggal 15 Maret 2007."
                     , "https://www.gotravelly.com/blog/wp-content/uploads/2017/12/spot-foto-kebun-binatang-siantar.jpg"
-                    , "https://id.wikipedia.org/wiki/Kebun_Binatang_Pematang_Siantar" //bukan website resmi
+                    , "null"
                     , "062221611"
             },
 //            8
@@ -91,7 +91,7 @@ public class DataKebunBinatang {
                     "Wildlife Areas and Cultural Kinantan"
                     , "Wildlife Areas and Cultural Kinantan atau Taman Margasatwa dan Budaya Kinantan atau lebih dikenal dengan nama Kebun Binatang Bukittinggi terletak di atas Bukit Cubadak Bungkuak, Bukittinggi, Sumatra Barat, Indonesia. Kebun binatang ini merupakan salah satu kebun binatang tertua yang ada di Indonesia dan satu-satunya di Sumatra Barat, dengan koleksi hewan terlengkap di Pulau Sumatra."
                     , "https://upload.wikimedia.org/wikipedia/id/7/7d/Taman_Margasatwa_dan_Budaya_Kinantan.jpg"
-                    , "https://id.wikipedia.org/wiki/Taman_Margasatwa_dan_Budaya_Kinantan" //bukan website resmi
+                    , "null"
                     , "075233306"
             },
 //            12
@@ -100,7 +100,7 @@ public class DataKebunBinatang {
                     , "Sea World Ancol merupakan sebuah kawasan yang lengkap untuk memberikan hiburan dan pendidikan khususnya dunia laut. Dalam operasionalnya, Sea World Ancol mengemban 3 misi besar yaitu: Pendidikan, Konservasi dan Hiburan. Melalui misi ini Sea World Ancol menempatkan diri sebagai tempat hiburan berkualitas. Dalam usaha memperkenalkan kehidupan biota yang hidup di alam, SeaWorld Ancol memiliki sekitar 7.300 ekor biota air tawar yang terdiri dari 48 Jenis ikan, 1 jenis reptil sampai biota perairan laut yang terdiri dari 11.500 ekor biota yang terdiri dari 138 jenis ikan dan avertebrata serta 3 jenis reptil. Biota-biota tersebut ditampilkan dalam 28 display yang terbagi atas 9 akuarium perairan tawar dan 19 akuarium serta 4 kolam terbuka."
                     , "https://kcic.co.id/lkapp/wp-content/uploads/2021/07/TLMD-SeaWorld.jpg"
                     , "https://www.ancol.com/"
-                    , "null" //Masalah, bukan nomor sebenarnya
+                    , "null"
             },
 //            {
 //                    ""
