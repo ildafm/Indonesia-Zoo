@@ -39,27 +39,19 @@
             android:justificationMode="inter_word"
             />
 
-        <LinearLayout
+        <Button
+            android:id="@+id/btn_website"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            >
+            android:text="Lihat Website"
+            />
 
-            <Button
-                android:id="@+id/btn_website"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Lihat Website"
-                />
-
-            <Button
-                android:id="@+id/btn_telepon"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Telepon"
-                />
-
-        </LinearLayout>
+        <Button
+            android:id="@+id/btn_telepon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telepon"
+            />
 
         <Button
             android:id="@+id/btn_lokasi"

@@ -2,7 +2,7 @@ package com.ildafm.indonesiazoo;
 
 public class ModelKebunBinatang {
 
-    private String nama, detail, foto, lokasi, website, telepon;
+    private String nama, detail, foto, website, telepon;
 
     public String getNama() {
         return nama;
@@ -26,14 +26,6 @@ public class ModelKebunBinatang {
 
     public void setFoto(String foto) {
         this.foto = foto;
-    }
-
-    public String getLokasi() {
-        return lokasi;
-    }
-
-    public void setLokasi(String lokasi) {
-        this.lokasi = lokasi;
     }
 
     public String getWebsite() {
