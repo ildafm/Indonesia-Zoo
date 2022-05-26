@@ -32,7 +32,7 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(new Intent(SplashActivity.this, MainActivity.class));//pindah activity
                 finish();//menghilangkan activity
             }
-        }, 3500);//3,5 detik
+        }, 3000);//3 detik
     }
 
     public void memuatGif(){
