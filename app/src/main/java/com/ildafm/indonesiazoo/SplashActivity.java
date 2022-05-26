@@ -20,11 +20,11 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        memuatGif();
+
         //Menghilangkan notification bar
         getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
-        memuatGambarGif();
-        
         //handler
         new Handler().postDelayed(new Runnable() {
             @Override
@@ -32,15 +32,15 @@ public class SplashActivity extends AppCompatActivity {
                 startActivity(new Intent(SplashActivity.this, MainActivity.class));//pindah activity
                 finish();//menghilangkan activity
             }
-        }, 3000);//3 detik
+        }, 3500);//3,5 detik
     }
 
-    public void memuatGambarGif(){
+    public void memuatGif(){
         gambar = (ImageView)findViewById(R.id.iv_logo);
 
         Glide.with(SplashActivity.this)
                 // LOAD URL DARI LOKAL DRAWABLE
-                .load(R.drawable.indonesia_zoo)
+                .load(R.drawable.splashscreen)
 
                 //PENGATURAN CACHE
                 .diskCacheStrategy(DiskCacheStrategy.RESOURCE)
